@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOOM FIGHER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Metal+Mania" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header-->
+    <div class="page-header">
+        <h1>DOOM Fighter!
+            <small>Pick your character and fight! The angrier your character is the more damage they'll do!</small>
+        </h1>
+    </div>
+    <div class="container main">
+        <!--main row for selecting character-->
+        <div class="row select">
+            <div class="col-md-3 char text-center" id="char_0">
+                <button type="button" class="btn-warning" id="char_select_0">Select</button>
+                <img src="assets/images/doomguy.jpg">
+                <hr>
+            </div>
+            <div class="col-md-3 char text-center" id="char_1">
+                <button type="button" class="btn-warning" id="char_select_1">Select</button>
+                <img src="assets/images/imp.jpg">
+                <hr>
+
+            </div>
+            <div class="col-md-3 char text-center" id="char_2">
+                <button type="button" class="btn-warning" id="char_select_2">Select</button>
+                <img src="assets/images/demon.jpg">
+                <hr>
+
+            </div>
+            <div class="col-md-3 char text-center" id="char_3">
+                <button type="button" class="btn-warning" id="char_select_3">Select</button>
+                <img src="assets/images/vile.jpg">
+                <hr>
+
+            </div>
+        </div>
+        <hr>
+        <!-- row where fights happen-->
+        <div class="row">
+            <div class="battelground">
+                <div class="col-md-5 player">
+                    <div id="player">
+
+                    </div>
+                    <div class="player_char"></div>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-danger " id="fight">
+                        <strong>FIGHT!</strong>
+                    </button>
+                    <div id="try_again">
+
+                    </div>
+                    <div id="update">
+
+                    </div>
+
+
+                </div>
+                <div class="col-md-5">
+                    <div id="enemey">
+
+                    </div>
+                    <div class="enemey_char"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+
+
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

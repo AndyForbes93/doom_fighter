@@ -1,0 +1,20 @@
+.char {
+    border: 2px solid black;
+}
+
+
+body {
+    background-image: url("http://classicdoom.com/maps/d1fpvs/e1m7.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Metal Mania', cursive;
+    color: white;
+    font-size: 200%;
+}
+.main{
+    background-color: darkred;
+    text-align: center;   
+}
+.btn{
+    font-size: 200%;
+}

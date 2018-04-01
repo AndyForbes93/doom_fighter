@@ -1,0 +1,30 @@
+1. display 4 divs with charaters in them and display info
+
+done
+
+2. on click player selects one character
+if statement to check for first character
+
+done
+
+
+4. on click enemy divs to select enemy
+
+
+second have of if statemnt to append div
+
+done
+
+5. make turn timer that takes player atk - enmey defand vice versa
+
+done
+
+6. upon defeat the next enemy can be chosen
+
+done
+
+7. all enemies beaten = win
+
+done
+
+8. add a div on the bottom that tells player what damage was take on both sides
